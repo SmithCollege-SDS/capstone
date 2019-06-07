@@ -3,7 +3,7 @@ output_dir: "../docs"
 include: "gfx"
 exclude: ["makefile", "data", "lectures/figure"]
 navbar:
-  title: "Smith Data Science Clinic"
+  title: "Smith College Data Science Clinic"
   left:
     - text: "Home"
       icon: fa-home
@@ -26,4 +26,5 @@ output:
     toc: false
     toc_float: true
     include:
+      in_header: include/header.html
       after_body: include/after_body.html

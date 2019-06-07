@@ -1,5 +1,5 @@
 ---
-title: "Smith College Data Science Clinic"
+title: "_"
 ---
 
 ```{r, include=FALSE}
