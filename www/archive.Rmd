@@ -21,6 +21,7 @@ g <- gs_ls()
 archive <- read_csv(here::here("capstone_db.csv"))
 
 archive %>%
+    arrange(desc(year), semester, client) %>%
     mutate(Term = paste(stringr::str_to_title(semester), year), 
            Title = ifelse(repo_public, paste0("[", title, "](", repo, ")"), title), 
            Sponsor = ifelse(client_public, paste0("[", client, "](", url, ")"), client)) %>%

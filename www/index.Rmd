@@ -1,5 +1,5 @@
 ---
-title: "</br>"
+title: "Smith College Data Science Clinic"
 ---
 
 ```{r, include=FALSE}
@@ -10,10 +10,16 @@ library(bsplus)
 
 ```{r, echo=FALSE}
 bs_carousel(id = "capstone", use_indicators = TRUE) %>%
-  bs_append(content = bs_carousel_image(src = "img/20180507_133125.jpg")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190426_154744.jpg")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190502_135916.jpg")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190503_120926.jpg")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190506_150817.jpg")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190507_133254.jpg"))
+  bs_append(content = bs_carousel_image(src = "img/20180507_133125.jpg"), 
+            caption = bs_carousel_caption("HuffPost", "eating noodles in NYC after classifying the social impact of articles")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190426_154744.jpg"), 
+            caption = bs_carousel_caption("Wisconsin Project", "wrangling unstructured text into data for nuclear disarmament")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190502_135916.jpg"), 
+            caption = bs_carousel_caption("CEEDS", "visualizing environmental data in real-time with Shiny")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190503_120926.jpg"), 
+            caption = bs_carousel_caption("Barresi Lab", "aligning 3D images of zebrafish brains using PCA")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190506_150817.jpg"), 
+            caption = bs_carousel_caption("ProPublica", "exposing medical malpractice through web scraping")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190507_133254.jpg"), 
+            caption = bs_carousel_caption("Community Labor United", "helping parents find childcare with Census-informed interactive maps"))
 ```
