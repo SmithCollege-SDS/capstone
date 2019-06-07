@@ -1,0 +1,65 @@
+---
+title: "Info for Sponsors"
+output:
+  html_document:
+    toc: true
+---
+
+## About the course
+
+SDS 410: (Capstone in Statistical & Data Sciences) is modeled as a data science consulting firm, wherein the instructor is the managing partner and the students are the junior partners. Students work in teams of 3--4 on a project sponsored by a private company, research lab, or non-profit organization. All projects are centered around using data to solve real-world problems. 
+
+The ideal project:
+
+* is challenging but not impossible
+* would take a small team of students several months -- not several weeks or years
+* has some public/open-source exposure (for their portfolio)
+* makes the world a better place
+
+Each section consists of 14--18 students --- all of whom are senior majors in [statistical & data sciences](http://www.smith.edu/sds). They have foundational training in statistics, computer programming, data visualization, data wrangling, communication, and ethics, as outlined in our [curriculum](https://www.smith.edu/sds/major.php). They are ready to tackle projects involving statistical modeling, data visualization, web scraping, web or mobile app development, database development, etc. The end result might be a web API, a statistical model, a publishable research paper, an internal white paper, a web application, or whatever else seems appropriate. 
+
+
+## What's in it for you?
+
+These students are highly-motivated and capable. They will go on to top graduate schools and companies. Students from previous classes are working full-time at Google, MasterCard, CitiGroup, and MassMutual. Others are attending doctoral and master's programs in statistics, computer science, and data science at Columbia University, the University of Michigan, and the University of California-Riverside. A sponsored project will provide you with: 
+
+* dedicated attention to your project
+* recruiting (of gender minorities -- all applicants to Smith College must [identify as female](https://www.smith.edu/about-smith/equity-inclusion/gender-identity-expression))
+* goodwill and PR
+* a substantive attempt to solve your data problem! Of course we can't promise a solution, but we will make a worthy attempt. 
+
+## What we'll need from you (and when)
+
+
+<button type="button" class="btn btn-danger btn-sm">Important</button>
+
+The fall course starts **September 5** and ends December 12, 2019. If you are interested in sponsoring a project, we'll need:
+
+By mid-July:
+
+* an idea for a project that involves some non-trivial data (that you have or know how to get)
+* a general description of your data (what format, roughly how many rows and columns, etc.)
+* a commitment from someone in your organization to serve as a contact person to interact with our students. This commitment might be on the order of one hour per week for 13 weeks, but could be more or less depending on your needs and availability. Contact could come via email, Slack, Zoom, etc.
+
+By September 1st:
+
+* a one paragraph description of your problem
+* a more specific description of your data
+* a three-minute video in which you describe your project to the students
+* a [completed intake form](https://docs.google.com/forms/d/1gn6T0u-TmicUqkAC65oH2My25pEW8vgV5tvezH6Whqk/)
+
+## Who's done this before? 
+
+Please see our [project archive](archive.html) for a comprehensive list of previous projects. 
+
+```{r, echo=FALSE, message=FALSE}
+library(tidyverse)
+archive <- read_csv(here::here("capstone_db.csv"))
+
+archive %>%
+  mutate(Clients = ifelse(client_public, paste0("[", client, "](", url, ")"), client)) %>%
+  select(Clients) %>% 
+  arrange(Clients) %>%
+  knitr::kable(caption = "List of previous sponsors")
+```
+

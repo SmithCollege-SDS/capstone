@@ -1,0 +1,19 @@
+---
+title: "Smith College Data Science Clinic"
+---
+
+```{r, include=FALSE}
+library(bsplus)
+```
+
+
+
+```{r, echo=FALSE}
+bs_carousel(id = "capstone", use_indicators = TRUE) %>%
+  bs_append(content = bs_carousel_image(src = "img/20180507_133125.jpg")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190426_154744.jpg")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190502_135916.jpg")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190503_120926.jpg")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190506_150817.jpg")) %>%
+  bs_append(content = bs_carousel_image(src = "img/20190507_133254.jpg"))
+```

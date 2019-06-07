@@ -1,0 +1,55 @@
+---
+title: 'Instructors'
+---
+
+
+<!--html_preserve-->
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <div class="thumbnail">
+      <img src="https://www.smith.edu/sites/default/files/styles/img-faculty-detail/public/media/Faculty/ben_baumer_crop.jpg" alt="...">
+      <div class="caption">
+        <h3><a href="https://www.smith.edu/academics/faculty/ben-baumer">Ben Baumer</a></h3>
+        <p>
+<!--/html_preserve-->
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="fas fa-at"></i> [bbaumer@smith.edu](mailto:bbaumer@smith.edu)  
+<i class="fas fa-phone"></i> 413-585-3440  
+<i class="fab fa-twitter"></i> @[BaumerBen](http://www.twitter.com/BaumerBen)  
+<i class="fab fa-github"></i> [beanumber](http://www.github.com/beanumber)
+<!--html_preserve-->
+        </p>
+        <p>
+          <a href="#" class="btn btn-primary" role="button">Fall 2019</a>
+          <a href="#" class="btn btn-default" role="button">Spring 2019</a>
+          <a href="#" class="btn btn-primary" role="button">Spring 2018</a> 
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6">
+    <div class="thumbnail">
+      <img src="https://www.smith.edu/sites/default/files/styles/img-faculty-detail/public/media/Faculty/miles_ott_crop.jpg" alt="...">
+      <div class="caption">
+        <h3><a href="https://www.smith.edu/academics/faculty/miles-ott">Miles Ott</a></h3>
+        <p>
+<!--/html_preserve-->
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="fas fa-at"></i> [mott@smith.edu](mailto:mott@smith.edu)  
+<i class="fas fa-phone"></i> 413-585-3537  
+<i class="fab fa-twitter"></i> @[Miles_Ott](http://www.twitter.com/Miles_Ott)  
+<i class="fab fa-github"></i> [MilesOtt](http://www.github.com/MilesOtt)
+<!--html_preserve-->
+        </p>
+        <p><a href="#" class="btn btn-primary" role="button">Spring 2020</a> </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--/html_preserve-->

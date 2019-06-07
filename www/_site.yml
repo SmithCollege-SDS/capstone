@@ -1,0 +1,29 @@
+name: "www"
+output_dir: "../docs"
+include: "gfx"
+exclude: ["makefile", "data", "lectures/figure"]
+navbar:
+  title: "Smith Data Science Clinic"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Sponsors"
+      href: sponsors.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Archive"
+      href: archive.html
+    - text: "Contact"
+      href: contact.html
+
+
+output:
+  html_document:
+    theme: sandstone
+    highlight: pygments
+    css: ["include/smith.css"]
+    toc: false
+    toc_float: true
+    include:
+      after_body: include/after_body.html
