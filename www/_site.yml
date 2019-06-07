@@ -9,13 +9,21 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Sponsors"
+      icon: fa-hands-helping
       href: sponsors.html
     - text: "Projects"
+      icon: fa-project-diagram
       href: projects.html
     - text: "Archive"
+      icon: fa-database
       href: archive.html
     - text: "Contact"
+      icon: fa-info
       href: contact.html
+  right:
+    - text: "SDS"
+      icon: fa-university
+      href: http://www.smith.edu/sds
 
 
 output:
