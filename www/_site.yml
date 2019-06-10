@@ -17,10 +17,16 @@ navbar:
     - text: "Archive"
       icon: fa-database
       href: archive.html
+    - text: "Media"
+      icon: fa-share-alt
+      href: media.html
     - text: "Contact"
       icon: fa-info
       href: contact.html
   right:
+    - text: "@SmithCollegeSDS"
+      icon: fa-twitter
+      href: https://www.twitter.com/SmithCollegeSDS
     - text: "SDS"
       icon: fa-university
       href: http://www.smith.edu/sds
