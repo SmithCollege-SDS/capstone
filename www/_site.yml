@@ -14,9 +14,6 @@ navbar:
     - text: "Projects"
       icon: fa-project-diagram
       href: projects.html
-    - text: "Archive"
-      icon: fa-database
-      href: archive.html
     - text: "Media"
       icon: fa-share-alt
       href: media.html

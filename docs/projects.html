@@ -11,7 +11,7 @@
 
 
 
-<title>Current Projects</title>
+<title>Projects</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -253,6 +256,90 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -260,6 +347,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -295,13 +392,6 @@ $(document).ready(function () {
     <span class="fa fa-project-diagram"></span>
      
     Projects
-  </a>
-</li>
-<li>
-  <a href="archive.html">
-    <span class="fa fa-database"></span>
-     
-    Archive
   </a>
 </li>
 <li>
@@ -343,12 +433,91 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Current Projects</h1>
+<h1 class="title toc-ignore">Projects</h1>
 
 </div>
 
 
-<p>We are currently seeking new sponsors for the fall 2019 semester. Please see the <a href="sponsors.html">sponsors</a> page for information about sponsoring a project, and the <a href="archive.html">project archive</a> for information about past projects.</p>
+<div id="current-projects" class="section level2">
+<h2>Current projects</h2>
+<p>We are currently seeking new sponsors for the fall 2019 semester. Please see the <a href="sponsors.html">sponsors</a> page for information about sponsoring a project, and the <a href="projects.html#project_archive">project archive</a> for information about past projects.</p>
+</div>
+<div id="project-archive" class="section level2">
+<h2>Project archive</h2>
+<table>
+<caption>Previous capstone sponsors</caption>
+<thead>
+<tr class="header">
+<th align="left">Term</th>
+<th align="left">Sponsor</th>
+<th align="left">Title</th>
+<th align="left">Students</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Spring 2019</td>
+<td align="left"><a href="http://www.nba.com/">an anonymous NBA team</a></td>
+<td align="left">Approximating RPM Values of Basketball Players</td>
+<td align="left">Stephanie Foukaris ’19, Cindy Lu ’19, Nancy Yun ’19</td>
+</tr>
+<tr class="even">
+<td align="left">Spring 2019</td>
+<td align="left"><a href="https://sophia.smith.edu/blog/barresilab/">Barresi Lab</a></td>
+<td align="left"><a href="https://github.com/beanumber/cranium">Cranium</a></td>
+<td align="left">Ziwei (Crystal) Zang ’20, Yujia (Emma) Ning ’19, Kalynn Kosyka ’19</td>
+</tr>
+<tr class="odd">
+<td align="left">Spring 2019</td>
+<td align="left"><a href="https://www.smith.edu/about-smith/sustainable-smith">Center for the Environment, Ecological Design, and Sustainability</a></td>
+<td align="left"><a href="https://github.com/beanumber/ceeds">CEEDS Weather Dashboard</a></td>
+<td align="left">Julia Lee ’19, Marta Garcia ’19, Mirella Hernandez ’19</td>
+</tr>
+<tr class="even">
+<td align="left">Spring 2019</td>
+<td align="left"><a href="http://massclu.org/">Community Labor United</a></td>
+<td align="left"><a href="https://github.com/jhu70/clusds410">The Graphical Analysis on the Gap between Supply and Demand for Early Ed Childcare Services</a></td>
+<td align="left">Jocelyn Hu ’19, Kat Kyuchukova ’19, Paige Patrick AC</td>
+</tr>
+<tr class="odd">
+<td align="left">Spring 2019</td>
+<td align="left"><a href="http://www.praavahealth.com">Praava Health Bangladesh Limited</a></td>
+<td align="left">Data Forensics and Database Exploration Using SQL</td>
+<td align="left">Stella Li ’19, Lily Qian ’19, Cas Sweeney ’19</td>
+</tr>
+<tr class="even">
+<td align="left">Spring 2019</td>
+<td align="left"><a href="http://propublica.org">ProPublica</a></td>
+<td align="left"><a href="https://github.com/rlaflamme7/ProPublica">Data collection of doctors recommended by the US immigration offices using web scraping techniques in R</a></td>
+<td align="left">Rutendo Madziwo ’19, Margaret Szlosek ’19, Rachel LaFlamme ’20J</td>
+</tr>
+<tr class="odd">
+<td align="left">Spring 2019</td>
+<td align="left"><a href="http://wisconsinproject.org">Wisconsin Project on Nuclear Arms Control</a></td>
+<td align="left"><a href="https://github.com/zixian97/wisconsinproject">Wisconsin Project on Nuclear Arms Control</a></td>
+<td align="left">Zixian Li ’19, Jingyi Liu ’19, Yue Kuang ’19</td>
+</tr>
+<tr class="even">
+<td align="left">Spring 2018</td>
+<td align="left"><a href="https://sophia.smith.edu/blog/barresilab/">Barresi Lab</a></td>
+<td align="left"><a href="https://github.com/msschwartz21/craniumPy">Classification of Wild type and Mutant Zebrafish Brains via Computational Method</a></td>
+<td align="left">Dejia Tang ’18, Shuli Hu ’18, Ji Young Yun ’18, Wencong (Priscilla) Li ’18</td>
+</tr>
+<tr class="odd">
+<td align="left">Spring 2018</td>
+<td align="left"><a href="http://www.huffingtonpost.com">HuffPost</a></td>
+<td align="left">Classifying Socially Impactful Articles</td>
+<td align="left">Syeda Zainab Aqdas Rizvi ’18, Julianna Alvord ’19, Minji Kang ’18, Erina Fukuda ’18</td>
+</tr>
+<tr class="even">
+<td align="left">Spring 2018</td>
+<td align="left"><a href="http://www.mavotertable.org/">Massachusetts Voter Table</a></td>
+<td align="left">Improving on Demographic Predictions based on Surname and Geolocation</td>
+<td align="left">Katie Lemiesz ’18, Yi Wang ’19, Grace Zhan ’18</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 <hr>
     <div id="footer">
@@ -359,6 +528,8 @@ $(document).ready(function () {
     </div>
 
 
+</div>
+</div>
 
 </div>
 

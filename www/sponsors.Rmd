@@ -50,7 +50,7 @@ By September 1st:
 
 ## Who's done this before? 
 
-Please see our [project archive](archive.html) for a comprehensive list of previous projects. 
+Please see our [project archive](projects.html#project_archive) for a comprehensive list of previous projects. 
 
 ```{r, echo=FALSE, message=FALSE}
 library(tidyverse)
@@ -60,6 +60,7 @@ archive %>%
   mutate(Clients = ifelse(client_public, paste0("[", client, "](", url, ")"), client)) %>%
   select(Clients) %>% 
   arrange(Clients) %>%
+  distinct() %>%
   knitr::kable(caption = "List of previous sponsors")
 ```
 
