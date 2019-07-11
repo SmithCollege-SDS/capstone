@@ -35,7 +35,7 @@ These students are highly-motivated and capable. They will go on to top graduate
 
 The fall course starts **September 5** and ends December 12, 2019. If you are interested in sponsoring a project, we'll need:
 
-By mid-July:
+By late-July:
 
 * an idea for a project that involves some non-trivial data (that you have or know how to get)
 * a general description of your data (what format, roughly how many rows and columns, etc.)
@@ -86,10 +86,25 @@ archive %>%
 
 ### Meghan Crimmins
 
-The Smith College students we worked with were professional, timely, and were able to explain complex ideas in digestible ways. They communicated well throughout the project and were committed to finding a solution to our data problem. Their use of natural language processing to extract and structure previously unstructured data has helped inform our research on proliferation networks, and the macro-level visualizations they delivered have given us new ways to present our research to potential clients and the public. We look forward to working with Smith SDS students again in the future!"
+"The Smith College students we worked with were professional, timely, and were able to explain complex ideas in digestible ways. They communicated well throughout the project and were committed to finding a solution to our data problem. Their use of natural language processing to extract and structure previously unstructured data has helped inform our research on proliferation networks, and the macro-level visualizations they delivered have given us new ways to present our research to potential clients and the public. We look forward to working with Smith SDS students again in the future!"
 
   </div>
   </div>
   </div>
+
+
+  <div class="col-sm-12 col-md-6">
+  <div class="thumbnail">
+  <img src="https://idlc.com/mbr/images/public/ZWv8SqZMeQXHbn1mT2JV8z.JPG">  
+  <div class="caption">
+
+### Sabrina Imam
+
+"Their work has helped us figure out the entity definitions of a large portion of the database. We found the students to be very enthusiastic, smart, and professional in their approach. They were very quick to understand our database, and were always on time for our weekly calls despite the 10-hour time difference. We especially appreciate the students' creative thinking and their use of some new and innovative tools to create a column-to-column connectivity diagram and a network graph that was outside the project scope."
+
+  </div>
+  </div>
+  </div>
+
 </div>
 
