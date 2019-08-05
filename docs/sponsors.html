@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -240,48 +241,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -549,6 +511,16 @@ Important
 </div>
 </div>
 </div>
+<div class="col-sm-12 col-md-6">
+<div class="thumbnail">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0KDQoIEBEQEg0NEQ0QDQ8IDRMNDQ4OFREWGCATHx8kKDQsGCYxJx8fLT0tJTUrOjo6GB81RDM4NzQvRjcBCgoKDg0NGBAQECsZFRktKysrKysrKysrKy03NystKzcrLS0rKystNy0rKysrKy0rKy0tKysrKysrKysrKysrK//AABEIAIAAgAMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABwgBBQYEAgP/xABBEAABAwICBAgLBAsAAAAAAAAAAQIDBBEFBgcSMUEUITVRYXF0sxMXVGSRlKSxwdLiFSOBoSIkMkJSU2LC0eHw/8QAGAEBAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAfEQEBAAICAgMBAAAAAAAAAAAAAQIRElEDQSExYRP/2gAMAwEAAhEDEQA/AOFuoupgHU52bqLqYAGbqLqYAGbqLqYAGbqLqYAGbqLqYAGbqLqYAGbqLqYAAAAAAABI+WdGceJ0VLiS1LmLM1y6jYUcjbPVNt+PYbXxOxeWP9Xb8xS5ye1uNRGCXPE7F5Y/1dvzDxOxeWP9Xb8w5zs4VEYJadoej3VjkX+qmRf7jw1eh+oan3VVE9fOInQp+SuHOdnG9IzB0WN5JxPDUdJJCrom7ZaVUlYic/O3rVEOdLSy/SLAAEoAAAAAAAAdfl3SHX4XDFRNSGSCO6NbOxUciK5Vsioqc++5OGDVi1lJR1yojVqIYZVai3RqvYjrdO0rAWWylyZhPZKTuWmPkkjTCtqRTjWlKqo6utoW08KtgmmiRz3P1lax6tRVt1ErKVqzdyni3a6vvXEYSWpzuo7Vml+qRf0qWFU5mSPavp/0dxlHOtLjaOjYix1DEu6CVUVVT+Jq/vJs5lTmK+Gyy7iLqCto65q2WKRiusu1irZzfQqp+Je4TXwrMrtZoi/SdkiJ0MuN0rEZJHd9TFElmvZvkRNypv8AxXbtlA+JI2va6NyXa5FRyO2KipaxlLppZtVYHpxKn4PUVNL/ACZZY+PfqvVPgeY6GAACQAAAAACy2UuS8J7JSdy0rSWWylyXhPZKTuWmXk9NMG2K05u5TxbtdX3riyxXbNOE1j8SxSRtPO5rqqqVrmQPc1zVlct050I8f2ZucPRh1M6pnp6VvG6WSNjbb1c5E+J6osAr5FRjaWpVV3JTyf4JM0cZBlopWYvWIjZWIvgIbo5WKqW13Km+17Jx7b7TTLKSKzHdScfKrbj95k4rSbmhmG0klCx363VNc1qNXjjiXidJ0cV7dPHuUwk21t1EKYvUJUVVXUp+zLNK9Opz3KnvPIAdDAABIAAAAABZbKXJeE9kpO5aVpLLZS5LwnslJ3LTLyemmDbGrmx/D43PifV0rXsVWvbJUxNc1yLZUVL8Sm0K05u5TxbtdX3rimOO6tldLAOzNhiba2k9biX4mtrc/YPTot6lr13JStdKq+hLekr2C/8AOdq8/wASlmDSy5zXQ0UKtVb/AH1bqq5OlGIvvVeojOsqpamR9TK9z5JFu98qq5yr/wBu3H4gvMZFLlsABZAAAAAAAAAWWylyZhPZKTuWkPZa0b1eKQQ1/hYY4JUVWX1nyWRypfVsifmTVhFFwOlpKHW1uDwxRa+rq6+oxG61t2zpMc7K0wj2Fas3cp4t2ur71xZYi3H9Fc1XU1dfHVMvUSzS6k0KojVe9V1boq367J1EYXVWym4iUHU5lyHXYPCtbK6F0SOa29M9yuu7oVEOWNpZWVAASgAAAAAAAAAAEh5b0m/ZlHTYbwTwngWuTX4Vqa13OW9tRbbedTZ+OPzH2z6CKQU4Tpble0reOTzH2z6B45PMfbPoIpA4To5Xt3WcNIn21SOw7gvgrvY/X4R4XZfitqp7zhQC0mkW7AASgAAAAAAAAAAAAAAAAAAAAAAAAAAH/9k="><br />
+
+<div class="caption">
+<h3 id="ryann-grochowski-jones">Ryann Grochowski Jones</h3>
+<p>“The SDS 410 students were communicative and professional. They worked independently but weren’t afraid to ask questions if something was unclear. I’m eager to work with Smith students again in future semesters.”</p>
+</div>
+</div>
+</div>
 </div>
 </div>
 
@@ -577,6 +549,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
