@@ -7,7 +7,7 @@ output:
 
 ## Current projects
 
-We are currently seeking new sponsors for the fall 2019 semester. Please see the [sponsors](sponsors.html) page for information about sponsoring a project, and the [project archive](projects.html#project_archive) for information about past projects.  
+We are currently seeking new sponsors for the spring 2020 semester. Please see the [sponsors](sponsors.html) page for information about sponsoring a project, and the [project archive](projects.html#project_archive) for information about past projects.  
 
 ## Project archive
 
@@ -34,7 +34,7 @@ archive %>%
     arrange(desc(year), semester, client) %>%
     mutate(Term = paste(stringr::str_to_title(semester), year), 
            Title = ifelse(repo_public, paste0("[", title, "](", repo, ")"), title), 
-           Sponsor = ifelse(client_public, paste0("[", client, "](", url, ")"), client)) %>%
+           Sponsor = ifelse(client_public, paste0("[", client, "](", url, ")"), "[redacted]")) %>%
     select(Term, Sponsor, Title, Students = students) %>%
     knitr::kable(caption = "Previous capstone sponsors")
 ```
