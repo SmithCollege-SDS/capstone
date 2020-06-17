@@ -33,7 +33,7 @@ These students are highly-motivated and capable. They will go on to top graduate
 
 <button type="button" class="btn btn-danger btn-sm">Important</button>
 
-The spring course starts **January 27** and ends May 1, 2020. If you are interested in sponsoring a project, we'll need:
+The fall course starts **September 8** and ends December 15, 2020. If you are interested in sponsoring a project, we'll need:
 
 By late-July:
 
@@ -54,6 +54,46 @@ Please see our [project archive](projects.html#project_archive) for a comprehens
 
 
 <div class="row">
+
+
+
+  <div class="col-sm-12 col-md-6">
+  <div class="thumbnail">
+![NFL logo](https://static.www.nfl.com/image/private/t_editorial_landscape_12_desktop/league/bkhufsolhou43uouttw8)
+  <div class="caption">
+
+### Michael Lopez
+
+
+"The Smith SDS students consistently demonstrated passion, intellect, and creativity that led us to think of enhanced and data-drive ways of improving our product. In particular, the students possessed outstanding data visualization skills, an appropriate understanding of uncertainty, and a willingness to work independently that consistently left us impressed."
+
+  </div>
+  </div>
+  </div>
+  
+
+
+
+  <div class="col-sm-12 col-md-6">
+  <div class="thumbnail">
+![Met Council logo](https://upload.wikimedia.org/wikipedia/en/d/dd/Metro_Council_logo.png)
+  <div class="caption">
+
+### Mauricio León
+
+"I have to say that this group has done an outstanding work that surpassed my expectations. They were able to work around the difficulties of not having all the resources they had at the beginning due to the pandemic. They found creative solutions to problems involving datasets that we too large to handle in a conventional way, and worked with tools that are familiar to our team at the Met Council. The team maintained a positive attitude during the development of the work, asked reasonable questions, and tried to clarify the tasks along the way. As a result, they produced something that is of significant value for the development of our greenhouse gas mitigation research at the Metropolitan Council."
+
+  </div>
+  </div>
+  </div>
+
+</div>
+<div class="row">
+
+
+
+
+
   <div class="col-sm-12 col-md-6">
   <div class="thumbnail">
 ![EBSCO logo](https://www.cccu.org/wp-content/uploads/2019/01/EBSCO-logo-1493.jpg)
@@ -61,7 +101,7 @@ Please see our [project archive](projects.html#project_archive) for a comprehens
 
 ### Kayleigh Hinckley
 
-The students from SDS 410 were great to work with. They were able to quickly understand the large, complex problem we presented, researched and assessed multiple avenues for solving it, wrangled data from several sources, and ultimately produced an algorithm with results that are meaningful and actionable. The work from these students was the foundation our business needed to propel forward in a competitive industry. We look forward to working with Smith students again!
+"The students from SDS 410 were great to work with. They were able to quickly understand the large, complex problem we presented, researched and assessed multiple avenues for solving it, wrangled data from several sources, and ultimately produced an algorithm with results that are meaningful and actionable. The work from these students was the foundation our business needed to propel forward in a competitive industry. We look forward to working with Smith students again!"
 
   </div>
   </div>
@@ -74,7 +114,7 @@ The students from SDS 410 were great to work with. They were able to quickly und
 
 ### Derek Willis
 
-The Smith College students dove right into a complicated and messy set of tasks. They asked good questions and weren’t shy about making suggestions that improved the outcome. We were looking for a way to turn what was a repetitive manual task into one that could be at least partially automated, and they succeeded at producing code that trades data entry and other time-consuming methods for a better, faster approach. Finally, they were professional in their communication and maintained a positive attitude throughout the project.
+"The Smith College students dove right into a complicated and messy set of tasks. They asked good questions and weren’t shy about making suggestions that improved the outcome. We were looking for a way to turn what was a repetitive manual task into one that could be at least partially automated, and they succeeded at producing code that trades data entry and other time-consuming methods for a better, faster approach. Finally, they were professional in their communication and maintained a positive attitude throughout the project."
 
   </div>
   </div>
