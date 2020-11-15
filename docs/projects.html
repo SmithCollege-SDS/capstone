@@ -23,6 +23,9 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -32,6 +35,15 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -411,6 +423,12 @@ div.tocify {
 <h2>Project archive</h2>
 <table>
 <caption>Previous capstone sponsors</caption>
+<colgroup>
+<col width="3%" />
+<col width="31%" />
+<col width="38%" />
+<col width="26%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Term</th>
@@ -422,33 +440,33 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">Spring 2020</td>
-<td align="left">[redacted]</td>
-<td align="left"><a href="https://github.com/SDS410-Spring2020/SCC19">Smith College Communicating COVID-19</a></td>
-<td align="left">Emily Daubenspeck ’20, Yejin Hwang ’20, Jeny Kwon ’20, Whitney Mutalemwa ’20</td>
-</tr>
-<tr class="even">
-<td align="left">Spring 2020</td>
 <td align="left"><a href="https://www.smith.edu/about-smith/sustainable-smith">Center for the Environment, Ecological Design, and Sustainability</a></td>
 <td align="left"><a href="https://github.com/SDS410-Spring2020/ceeds-1">CEEDS Weather Dashboard</a></td>
 <td align="left">Jane Bang ’20, Fatima Keita ’20, Genel McLean ’20</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Spring 2020</td>
 <td align="left"><a href="https://nfl.com">NFL</a></td>
 <td align="left"><a href="https://github.com/SDS410-Spring2020/NFL">The National Football League: An Analysis of Thurday Night Football</a></td>
 <td align="left">Anna Ballou ’20, Lizette Carpenter ’20, Elaona Lemoto ’20, Valerie Medina Cebreros ’20, Aoi Ogawa ’20</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Spring 2020</td>
 <td align="left"><a href="https://www.sunrisemovement.org/">Sunrise Movement</a></td>
 <td align="left"><a href="https://github.com/SDS410-Spring2020/SunriseMovement">Analysis of Sunrise Movement 2019 Fall Field Program Data</a></td>
 <td align="left">Alina Barylsky ’20, Sophia Foster ’20, Emma Livingston ’20, Vanessa Simplice ’20</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Spring 2020</td>
 <td align="left"><a href="metrocouncil.org">The Metropolitan Council</a></td>
 <td align="left"><a href="https://github.com/SDS410-Spring2020/MetCouncil">Carbon Sequestration of Forested Area in the Twin Cities Metropolitan Area</a></td>
 <td align="left">Julia Bouzaher ’20, Jessica Keast ’20, Serene Lee ’20, Ann Mudanye ’20</td>
+</tr>
+<tr class="odd">
+<td align="left">Spring 2020</td>
+<td align="left">[redacted]</td>
+<td align="left"><a href="https://github.com/SDS410-Spring2020/SCC19">Smith College Communicating COVID-19</a></td>
+<td align="left">Emily Daubenspeck ’20, Yejin Hwang ’20, Jeny Kwon ’20, Whitney Mutalemwa ’20</td>
 </tr>
 <tr class="even">
 <td align="left">Fall 2019</td>
@@ -562,7 +580,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

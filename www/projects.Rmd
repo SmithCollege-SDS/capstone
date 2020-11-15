@@ -16,25 +16,20 @@ We are currently seeking new sponsors for the fall 2020 semester. Please see the
 library(tidyverse)
 ```
 
-```{r, eval=FALSE, include=FALSE}
-library(googlesheets)
+```{r, eval=TRUE, include=FALSE}
+library(googlesheets4)
 key <- "17nrW5cXHFeoISeNdU_DEYfb_t6i49lUv5Ie_mbIO6Zo"
-gs_auth()
-g <- gs_key(key)
-g <- gs_ls()
-
-# currently not working. Download spreadsheet manually
-
+archive <- read_sheet(key)
 ```
 
 ```{r, echo=FALSE, message=FALSE}
-archive <- read_csv(here::here("capstone_db.csv"))
-
 archive %>%
-    arrange(desc(year), semester, client) %>%
-    mutate(Term = paste(stringr::str_to_title(semester), year), 
-           Title = ifelse(repo_public, paste0("[", title, "](", repo, ")"), title), 
-           Sponsor = ifelse(client_public, paste0("[", client, "](", url, ")"), "[redacted]")) %>%
-    select(Term, Sponsor, Title, Students = students) %>%
-    knitr::kable(caption = "Previous capstone sponsors")
+  arrange(desc(year), semester, client) %>%
+  mutate(
+    Term = paste(stringr::str_to_title(semester), year), 
+    Title = ifelse(repo_public, paste0("[", title, "](", repo, ")"), title), 
+    Sponsor = ifelse(client_public, paste0("[", client, "](", url, ")"), "[redacted]")
+  ) %>%
+  select(Term, Sponsor, Title, Students = students) %>%
+  knitr::kable(caption = "Previous capstone sponsors")
 ```

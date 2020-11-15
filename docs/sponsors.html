@@ -23,6 +23,9 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -32,6 +35,15 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -430,19 +442,19 @@ div.tocify {
 <button type="button" class="btn btn-danger btn-sm">
 Important
 </button>
-<p>The fall course starts <strong>September 8</strong> and ends December 15, 2020. If you are interested in sponsoring a project, we’ll need:</p>
-<p>By late-July:</p>
+<p>The spring course starts <strong>February 15</strong> and ends May 14, 2021. If you are interested in sponsoring a project, we’ll need:</p>
+<p>By late-January:</p>
 <ul>
 <li>an idea for a project that involves some non-trivial data (that you have or know how to get)</li>
 <li>a general description of your data (what format, roughly how many rows and columns, etc.)</li>
 <li>a commitment from someone in your organization to serve as a contact person to interact with our students. This commitment might be on the order of one hour per week for 13 weeks, but could be more or less depending on your needs and availability. Contact could come via email, Slack, Zoom, etc.</li>
 </ul>
-<p>By September 1st:</p>
+<p>By February 10th:</p>
 <ul>
 <li>a one paragraph description of your problem</li>
 <li>a more specific description of your data</li>
 <li>a three-minute video in which you describe your project to the students</li>
-<li>a <a href="https://docs.google.com/forms/d/1N0YBuSrnsWmeU5S22ri5aO4XW6TgIw0duyFVfEGPioE/">completed intake form</a></li>
+<li>a <a href="https://docs.google.com/forms/d/1hrhIhfuvoyBKpGuAnI9WbHHNFuIUx9i7ahYlt2sXAhw/">completed intake form</a></li>
 </ul>
 </div>
 <div id="whos-done-this-before" class="section level2">
@@ -548,7 +560,7 @@ Important
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
