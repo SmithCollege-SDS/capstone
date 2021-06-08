@@ -11,6 +11,7 @@ SDS 410: (Capstone in Statistical & Data Sciences) is modeled as a data science 
 Students work **collaboratively** in teams of 3--5 on a project sponsored by a private company, research lab, or non-profit organization. 
 All projects are centered around using data to solve **real-world** problems.
 
+
 The ideal project:
 
 * is challenging but not impossible
@@ -23,6 +24,13 @@ They have foundational training in statistics, computer programming, data visual
 They are ready to tackle projects involving statistical modeling, data visualization, web scraping, web or mobile app development, database development, etc. 
 The end result might be a web API, a statistical model, a publishable research paper, an internal white paper, a web application, or whatever else seems appropriate. 
 
+You can learn more about the course through the slides for this talk:
+
+- Data Science Clinic: A capstone experience for Smithies in SDS  
+  Benjamin S. Baumer, Smith College  
+  Statistics and Data Science Symposium  
+  June 3rd, 2020  
+  https://beanumber.github.io/talks/sdss2020/capstone.html
 
 ## What's in it for you?
 
