@@ -21,7 +21,7 @@ navbar:
       icon: fa-info
       href: contact.html
   right:
-    - icon: fa-twitter
+    - icon: fab fa-twitter
       href: https://www.twitter.com/SmithCollegeSDS
     - icon: fa-university
       href: http://www.smith.edu/sds
