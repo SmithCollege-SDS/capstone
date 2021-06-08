@@ -7,7 +7,9 @@ output:
 
 ## About the course
 
-SDS 410: (Capstone in Statistical & Data Sciences) is modeled as a data science consulting firm, wherein the instructor is the managing partner and the students are the junior partners. Students work **collaboratively** in teams of 3 or 4 on a project sponsored by a private company, research lab, or non-profit organization. All projects are centered around using data to solve **real-world** problems.
+SDS 410: (Capstone in Statistical & Data Sciences) is modeled as a data science consulting firm, wherein the instructor is the managing partner and the students are the junior partners. 
+Students work **collaboratively** in teams of 3--5 on a project sponsored by a private company, research lab, or non-profit organization. 
+All projects are centered around using data to solve **real-world** problems.
 
 The ideal project:
 
@@ -16,15 +18,22 @@ The ideal project:
 * has some public/open-source exposure (for their portfolio)
 * makes the world a better place
 
-Each section consists of 14--20 students --- all of whom are senior majors in [statistical & data sciences](http://www.smith.edu/sds). They have foundational training in statistics, computer programming, data visualization, data wrangling, communication, and ethics, as outlined in our [curriculum](https://www.smith.edu/sds/major.php), and in pursuit of our [learning goals](https://www.smith.edu/about-smith/institutional-research/learning-goals#offices-institutional-research-statistical-data-sciences). They are ready to tackle projects involving statistical modeling, data visualization, web scraping, web or mobile app development, database development, etc. The end result might be a web API, a statistical model, a publishable research paper, an internal white paper, a web application, or whatever else seems appropriate. 
+Each section consists of 14--20 students --- all of whom are senior majors in [statistical & data sciences](http://www.smith.edu/sds). 
+They have foundational training in statistics, computer programming, data visualization, data wrangling, communication, and ethics, as outlined in our [curriculum](https://www.smith.edu/sds/major.php), and in pursuit of our [learning goals](https://www.smith.edu/about-smith/institutional-research/learning-goals#offices-institutional-research-statistical-data-sciences). 
+They are ready to tackle projects involving statistical modeling, data visualization, web scraping, web or mobile app development, database development, etc. 
+The end result might be a web API, a statistical model, a publishable research paper, an internal white paper, a web application, or whatever else seems appropriate. 
 
 
 ## What's in it for you?
 
-These students are highly-motivated and capable. They will go on to top graduate schools and companies. Students from previous classes are working full-time at Google, MasterCard, CitiGroup, and MassMutual. Others are attending doctoral and master's programs in statistics, computer science, and data science at Columbia University, the University of Michigan, and the University of California-Riverside. A sponsored project will provide you with: 
+These students are highly-motivated and capable. 
+They will go on to top graduate schools and companies. 
+Students from previous classes are working full-time at Google, MasterCard, CitiGroup, and MassMutual. 
+Others are attending doctoral and master's programs in statistics, computer science, and data science at Harvard University, Columbia University, the University of Michigan, the University of North Carolina, the University of Pittsburgh, and the University of California-Riverside. 
+A sponsored project will provide you with: 
 
 * dedicated attention to your project
-* recruiting (of gender minorities -- all applicants to Smith College must [identify as female](https://www.smith.edu/about-smith/equity-inclusion/gender-identity-expression))
+* recruiting (of underrepresented genders -- all applicants to Smith College must [identify as a woman](https://www.smith.edu/about-smith/equity-inclusion/gender-identity-expression))
 * goodwill and PR
 * a substantive attempt to solve your data problem! Of course we can't promise a solution, but we will make a worthy attempt. 
 
@@ -33,20 +42,21 @@ These students are highly-motivated and capable. They will go on to top graduate
 
 <button type="button" class="btn btn-danger btn-sm">Important</button>
 
-The spring course starts **February 15** and ends May 14, 2021. If you are interested in sponsoring a project, we'll need:
+The fall course starts **September 2** and ends December 10, 2021. 
+If you are interested in sponsoring a project, we'll need:
 
-By late-January:
+By August:
 
 * an idea for a project that involves some non-trivial data (that you have or know how to get)
 * a general description of your data (what format, roughly how many rows and columns, etc.)
 * a commitment from someone in your organization to serve as a contact person to interact with our students. This commitment might be on the order of one hour per week for 13 weeks, but could be more or less depending on your needs and availability. Contact could come via email, Slack, Zoom, etc.
 
-By February 10th:
+By August 31st:
 
 * a one paragraph description of your problem
 * a more specific description of your data
 * a three-minute video in which you describe your project to the students
-* a [completed intake form](https://docs.google.com/forms/d/1hrhIhfuvoyBKpGuAnI9WbHHNFuIUx9i7ahYlt2sXAhw/)
+* a [completed intake form](https://docs.google.com/forms/d/1c2XX7Az0z4y2hERaF3OQN1qbWesHzs7fUMyyeFDT0gM/viewform)
 
 ## Who's done this before? 
 

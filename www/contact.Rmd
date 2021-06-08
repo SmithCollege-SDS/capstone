@@ -23,9 +23,12 @@ Northampton, MA 01063
 <i class="fab fa-github"></i> [beanumber](http://www.github.com/beanumber)
 
   <p>
-  <a href="#" class="btn btn-default" role="button">Spring 2021</a>
-  <a href="#" class="btn btn-primary" role="button">Fall 2019</a>
-  <a href="#" class="btn btn-default" role="button">Spring 2019</a>
+  <a href="#" class="btn btn-primary" role="button">Spring 2022</a>
+  <a href="#" class="btn btn-default" role="button">Fall 2021</a>
+  <a href="#" class="btn btn-primary" role="button">Spring 2021</a>
+  <a href="#" class="btn btn-default" role="button">Fall 2020</a>
+  <a href="#" class="btn btn-default" role="button">Fall 2019</a>
+  <a href="#" class="btn btn-primary" role="button">Spring 2019</a>
   <a href="#" class="btn btn-primary" role="button">Spring 2018</a>
   </p>
   </div>
@@ -52,7 +55,7 @@ Northampton, MA 01063
 <i class="fab fa-github"></i> [MilesOtt](http://www.github.com/MilesOtt)
 
   <p>
-  <a href="#" class="btn btn-default" role="button">Fall 2020</a>
+  <a href="#" class="btn btn-primary" role="button">Spring 2021</a>
   <a href="#" class="btn btn-primary" role="button">Spring 2020</a>
   </p>
   </div>
