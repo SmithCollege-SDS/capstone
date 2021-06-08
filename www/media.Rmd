@@ -24,11 +24,28 @@ Here, we note a few of the more public contributions.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Congrats to <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> students Tiffany Xiao <a href="https://twitter.com/_mxwang?ref_src=twsrc%5Etfw">@_mxwang</a> <a href="https://twitter.com/karavan_allen?ref_src=twsrc%5Etfw">@karavan_allen</a> Karen Santamaria on winning 3rd 🏆 in the fall <a href="https://twitter.com/hashtag/USRESP?src=hash&amp;ref_src=twsrc%5Etfw">#USRESP</a> competition!! Project sponsored by <a href="https://twitter.com/openelex?ref_src=twsrc%5Etfw">@openelex</a> <a href="https://twitter.com/derekwillis?ref_src=twsrc%5Etfw">@derekwillis</a> <a href="https://t.co/TOPOODo0Lx">https://t.co/TOPOODo0Lx</a></p>&mdash; Ben Baumer (@BaumerBen) <a href="https://twitter.com/BaumerBen/status/1235363781754138626?ref_src=twsrc%5Etfw">March 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+## From former students
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">New blog post about what I learned during my capstone with <a href="https://twitter.com/Miles_Ott?ref_src=twsrc%5Etfw">@Miles_Ott</a> this semester is live! <a href="https://t.co/EuZYzxe6IT">https://t.co/EuZYzxe6IT</a></p>&mdash; Emma Livingston (@livin_emma) <a href="https://twitter.com/livin_emma/status/1264604872319647745?ref_src=twsrc%5Etfw">May 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You should Sponsor a project for a data science capstone class in the fall <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a>. details here: <a href="https://t.co/RYOWzaTqBw">https://t.co/RYOWzaTqBw</a> <a href="https://twitter.com/hashtag/statstwitter?src=hash&amp;ref_src=twsrc%5Etfw">#statstwitter</a></p>&mdash; Julia Claire Lee (@JuJu_FTW) <a href="https://twitter.com/JuJu_FTW/status/1149431386845020160?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+## Guest speakers
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/smithcollege?ref_src=twsrc%5Etfw">@smithcollege</a> alum Portia Exum for joining our <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> capstone class today! Learn more about Portia here:<a href="https://t.co/U62QTeBfSz">https://t.co/U62QTeBfSz</a></p>&mdash; Miles Ott 🏳️‍⚧️ (he/him) (@Miles_Ott) <a href="https://twitter.com/Miles_Ott/status/1245793688879616005?ref_src=twsrc%5Etfw">April 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thanks <a href="https://twitter.com/heatherklus?ref_src=twsrc%5Etfw">@heatherklus</a> for talking career paths, data science roles, interviewing, and twitter with our <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> capstone class today! It was awesome!!! <a href="https://t.co/KVvEr4l9FP">pic.twitter.com/KVvEr4l9FP</a></p>&mdash; Miles Ott 🏳️‍⚧️ (he/him) (@Miles_Ott) <a href="https://twitter.com/Miles_Ott/status/1253399091029184519?ref_src=twsrc%5Etfw">April 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you so much <a href="https://twitter.com/gdequeiroz?ref_src=twsrc%5Etfw">@gdequeiroz</a> for joining our <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> capstone class today to share your experiences, and talk about data science, <a href="https://twitter.com/RLadiesGlobal?ref_src=twsrc%5Etfw">@RLadiesGlobal</a> , applying for jobs, and the importance of negotiating! <a href="https://t.co/aai3NKIvSa">pic.twitter.com/aai3NKIvSa</a></p>&mdash; Miles Ott 🏳️‍⚧️ (he/him) (@Miles_Ott) <a href="https://twitter.com/Miles_Ott/status/1255211283017801728?ref_src=twsrc%5Etfw">April 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
 ## Other tweets
 
 
 <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @SmithCollegeSDS</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Does your organization use data for good? Want to connect with excellent <a href="https://twitter.com/SmithCollegeSDS?ref_src=twsrc%5Etfw">@SmithCollegeSDS</a> majors? Consider becoming a SDS capstone sponsor! My DMs are open!<br><br>More information here: <a href="https://t.co/gXXY6VHchs">https://t.co/gXXY6VHchs</a></p>&mdash; Miles Ott 🏳️
 ⚧️ (@Miles_Ott) <a href="https://twitter.com/Miles_Ott/status/1205568686226116608?ref_src=twsrc%5Etfw">December 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
