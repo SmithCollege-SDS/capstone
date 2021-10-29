@@ -50,10 +50,10 @@ A sponsored project will provide you with:
 
 <button type="button" class="btn btn-danger btn-sm">Important</button>
 
-The fall course starts **September 2** and ends December 10, 2021. 
+The spring course starts **January 24** and ends April 29, 2022. 
 If you are interested in sponsoring a project, we'll need:
 
-By August:
+By early January:
 
 * an idea for a project that involves some non-trivial data (that you have or know how to get)
 * a general description of your data (what format, roughly how many rows and columns, etc.)
@@ -64,7 +64,7 @@ By August 31st:
 * a one paragraph description of your problem
 * a more specific description of your data
 * a three-minute video in which you describe your project to the students
-* a [completed intake form](https://docs.google.com/forms/d/1c2XX7Az0z4y2hERaF3OQN1qbWesHzs7fUMyyeFDT0gM/viewform)
+* a [completed intake form](https://docs.google.com/forms/d/e/1FAIpQLSe7PMWljdO3P5V9YDQTXHHMIcD7RHPjqGZyzx5dX3C3wNEV8Q/viewform)
 
 ## Who's done this before? 
 
