@@ -14,12 +14,12 @@ We are currently seeking new sponsors for the fall 2020 semester. Please see the
 
 ```{r, include=FALSE}
 library(tidyverse)
+library(googlesheets4)
 ```
 
 ```{r, eval=TRUE, include=FALSE}
-library(googlesheets4)
-key <- "17nrW5cXHFeoISeNdU_DEYfb_t6i49lUv5Ie_mbIO6Zo"
-archive <- read_sheet(key)
+gs4_auth("albert.ys.kim@gmail.com")
+archive <- read_sheet("https://docs.google.com/spreadsheets/d/17nrW5cXHFeoISeNdU_DEYfb_t6i49lUv5Ie_mbIO6Zo/edit#gid=0")
 ```
 
 ```{r, echo=FALSE, message=FALSE}

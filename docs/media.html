@@ -13,8 +13,7 @@
 
 <title>Media</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -33,6 +32,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -51,6 +51,7 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
     </style>
+
 
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -306,7 +310,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -317,35 +321,35 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="sponsors.html">
-    <span class="fas fa-hands-helping"></span>
+    <span class="fa fa-hands-helping"></span>
      
     Sponsors
   </a>
 </li>
 <li>
   <a href="projects.html">
-    <span class="fas fa-project-diagram"></span>
+    <span class="fa fa-project-diagram"></span>
      
     Projects
   </a>
 </li>
 <li>
   <a href="media.html">
-    <span class="fas fa-share-alt"></span>
+    <span class="fa fa-share-alt"></span>
      
     Media
   </a>
 </li>
 <li>
   <a href="contact.html">
-    <span class="fas fa-info"></span>
+    <span class="fa fa-info"></span>
      
     Contact
   </a>
@@ -360,7 +364,7 @@ div.tocify {
 </li>
 <li>
   <a href="http://www.smith.edu/sds">
-    <span class="fas fa-university"></span>
+    <span class="fa fa-university"></span>
      
   </a>
 </li>
@@ -518,6 +522,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
