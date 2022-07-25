@@ -52,7 +52,7 @@ A sponsored project will provide you with:
 The fall course starts **September 5** and ends December 13, 2022. 
 If you are interested in sponsoring a project, we'll need:
 
-By August 1st:
+By August 1st: Contact Ben Baumer bbaumer@smith.edu with 
 
 * an idea for a project that involves some non-trivial data (that you have or know how to get)
 * a general description of your data (what format, roughly how many rows and columns, etc.)
