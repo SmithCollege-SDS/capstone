@@ -62,7 +62,7 @@ By August 15th:
 
 * a one paragraph description of your problem
 * a more specific description of your data
-* a three-minute video in which you describe your project to the students
+* a three-minute video in which you introduce yourself, your organization, and describe your project to the students
 * a [completed intake form](https://docs.google.com/forms/d/e/1FAIpQLSe7PMWljdO3P5V9YDQTXHHMIcD7RHPjqGZyzx5dX3C3wNEV8Q/viewform)
 
 ## Who's done this before? 
