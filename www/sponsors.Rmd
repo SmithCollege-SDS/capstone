@@ -19,7 +19,7 @@ The ideal project:
 * makes the world a better place
 
 Each section consists of 25--30 students --- all of whom are senior majors in [statistical & data sciences](http://www.smith.edu/sds). 
-They have foundational training in statistics, computer programming, data visualization, data wrangling, communication, and ethics, as outlined in our [curriculum](https://www.smith.edu/sds/major.php), and in pursuit of our [learning goals](https://www.smith.edu/about-smith/institutional-research/learning-goals#offices-institutional-research-statistical-data-sciences). 
+They have foundational training in statistics, computer programming, data visualization, data wrangling, communication, and ethics, as outlined in our [curriculum](https://www.smith.edu/academics/statistics), and in pursuit of our [learning goals](https://www.smith.edu/about-smith/institutional-research/learning-goals#offices-institutional-research-statistical-data-sciences). 
 They are ready to tackle projects involving statistical modeling, data visualization, web scraping, web or mobile app development, database development, etc. 
 The end result might be a web API, a statistical model, a publishable research paper, an internal white paper, a web application, or whatever else seems appropriate. 
 
