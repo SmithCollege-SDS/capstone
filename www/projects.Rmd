@@ -18,7 +18,7 @@ library(googlesheets4)
 ```
 
 ```{r, eval=TRUE, include=FALSE}
-gs4_auth("albert.ys.kim@gmail.com")
+gs4_auth("akim04@smith.edu")
 archive <- read_sheet("https://docs.google.com/spreadsheets/d/17nrW5cXHFeoISeNdU_DEYfb_t6i49lUv5Ie_mbIO6Zo/edit#gid=0")
 ```
 
