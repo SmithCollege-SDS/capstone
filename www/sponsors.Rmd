@@ -67,7 +67,7 @@ By August 15th:
 
 ## Who's done this before? 
 
-Please see our [project archive](projects.html#project_archive) for a comprehensive list of previous projects. 
+Please see our [project archive](projects.html#project_archive) for a comprehensive list of previous projects
 
 
 <div class="row">
