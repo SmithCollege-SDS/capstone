@@ -1,34 +1,30 @@
 ---
-title: " "
+title: "Data Science Clinic"
 ---
 
-```{r, include=FALSE}
-library(bsplus)
-```
-
-<div class="jumbotron">
-
-# Data Science Clinic
 
 A one-semester capstone course for [Statistical & Data Sciences](http://www.smith.edu/sds) majors at [Smith College](http://www.smith.edu) focused on using data in ethical ways to collaboratively solve real-world problems. 
 
 <a class="btn btn-primary btn-lg" href="sponsors.html" role="button">Learn more...</a>
 
-</div>
 
-```{r, echo=FALSE}
-bs_carousel(id = "capstone", use_indicators = TRUE) %>%
-  bs_append(content = bs_carousel_image(src = "img/20180507_133125.jpg"), 
-            caption = bs_carousel_caption("HuffPost", "eating noodles in NYC after classifying the social impact of articles")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190426_154744.jpg"), 
-            caption = bs_carousel_caption("Wisconsin Project", "wrangling unstructured text into data for nuclear disarmament")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190502_135916.jpg"), 
-            caption = bs_carousel_caption("CEEDS", "visualizing environmental data in real-time with Shiny")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190503_120926.jpg"), 
-            caption = bs_carousel_caption("Barresi Lab", "aligning 3D images of zebrafish brains using PCA")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190506_150817.jpg"), 
-            caption = bs_carousel_caption("ProPublica", "exposing medical malpractice through web scraping")) %>%
-  bs_append(content = bs_carousel_image(src = "img/20190507_133254.jpg"), 
-            caption = bs_carousel_caption("Community Labor United", "helping parents find childcare with Census-informed interactive maps"))
-```
+::: {.panel-tabset}
 
+## HuffPost
+![Eating noodles in NYC after classifying the social impact of articles](img/20180507_133125.jpg)
+
+## Wisconsin Project
+![Wrangling unstructured text into data for nuclear disarmament](img/20190426_154744.jpg)
+
+## CEEDS
+![visualizing environmental data in real-time with Shiny](img/20190502_135916.jpg)
+
+## Barresi Lab
+![Aligning 3D images of zebrafish brains using PCA](img/20190503_120926.jpg)
+
+## ProPublica
+![Exposing medical malpractice through web scraping](img/20190506_150817.jpg)
+
+## Community Labor United
+![Helping parents find childcare with Census-informed interactive maps](img/20190507_133254.jpg)
+:::
