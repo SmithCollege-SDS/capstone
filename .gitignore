@@ -1,3 +1,6 @@
+# derivative files
+_site/
+
 # other crap
 README.html
 .DS_Store
