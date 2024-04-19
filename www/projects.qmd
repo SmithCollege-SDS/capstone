@@ -1,0 +1,72 @@
+---
+title: "Projects"
+output:
+  html_document:
+    toc: true
+execute:
+  echo: false
+  include: false
+---
+
+## Current projects
+
+We are currently seeking new sponsors for the fall 2023 semester. Please see the [sponsors](sponsors.html) page for information about sponsoring a project, and the [project archive](projects.html#project_archive) for information about past projects.  
+
+## Project archive
+
+```{r}
+library(tidyverse)
+library(googlesheets4)
+# designate project-specific cache
+cache_dir <- here::here(".secrets")
+encrypted_token_path <- here::here(cache_dir, "gs4-token.rds")
+
+# set values in options
+options(
+  gargle_oauth_cache = cache_dir,
+  gargle_oauth_email = TRUE,
+  gargle_verbosity = "debug"
+)
+```
+
+```{r}
+#| eval: false
+
+# Ben did this once -- no one else should need to do it!!!
+
+# Step 1a: generate a secret key
+gargle::secret_make_key()
+# Step 1b: save the secret key as the GS4_KEY environment variable in `_environment.local`
+# Step 1c: Configure the secret key as a Secret on GitHub
+
+# Step 2a: get a token and DO NOT CACHE IT
+gs4_auth("bbaumer@smith.edu", cache = FALSE)
+# Step 2b: encrypt the token and write it to a file
+gargle::secret_write_rds(
+  gs4_token(),
+  encrypted_token_path,
+  key = "GS4_KEY"
+)
+# Step 2c: commit the encrypted_token_path file to GitHub
+```
+
+```{r}
+# Step 3: now decrypt the token using the secret key. 
+# This should work both locally AND on GitHub Actions!!
+gs4_auth(token = gargle::secret_read_rds(encrypted_token_path, "GS4_KEY"))
+archive <- read_sheet("https://docs.google.com/spreadsheets/d/17nrW5cXHFeoISeNdU_DEYfb_t6i49lUv5Ie_mbIO6Zo/edit#gid=0")
+```
+
+```{r}
+#| include: true
+#| message: false
+archive %>%
+  arrange(desc(year), semester, client) %>%
+  mutate(
+    Term = paste(stringr::str_to_title(semester), year), 
+    Title = ifelse(repo_public, paste0("[", title, "](", repo, ")"), title), 
+    Sponsor = ifelse(client_public, paste0("[", client, "](", url, ")"), "[redacted]")
+  ) %>%
+  select(Term, Sponsor, Title, Students = students) %>%
+  knitr::kable(caption = "Previous capstone sponsors")
+```

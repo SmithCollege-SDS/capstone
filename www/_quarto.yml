@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: "../_site"
 
+execute: 
+  echo: false
+
 website:
   title: "Smith College Data Science Clinic"
   open-graph: true
