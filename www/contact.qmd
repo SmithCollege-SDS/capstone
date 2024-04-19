@@ -4,95 +4,134 @@ title: 'Instructors'
 
 
 
-<div class="row">
-
-
-
-<!----------------------------- Albert Y. Kim -----------------------------> 
-<div class="col-sm-12 col-md-6">
-<div class="thumbnail">
-
-![](img/albert_kim_crop.jpeg)
-
-<div class="caption">
-
-### [Albert Y. Kim](https://www.smith.edu/academics/faculty/albert-kim)
-
-Clark Science Center  
-Smith College  
-Northampton, MA 01063  
-<i class="fas fa-at"></i> [akim04@smith.edu](mailto:akim04@smith.edu)  
-<i class="fab fa-twitter"></i> @[rudeboybert](http://www.twitter.com/rudeboybert)  
-<i class="fab fa-github"></i> [rudeboybert](http://www.github.com/rudeboybert)
-
-<p>
-<a href="#" class="btn btn-primary" role="button">Fall 2022</a>
-</p>
-</div>
-</div>
-</div>
-
+::: {.grid}
 
 
 <!----------------------------- Ben Baumer -----------------------------> 
-<div class="col-sm-12 col-md-6">
-<div class="thumbnail">
+::: {.g-col-4}
 
-![](img/ben_baumer_crop.jpg)
+![Ben Baumer](https://www.smith.edu/sites/default/files/styles/content_teaser_large/public/media/Faculty/ben_baumer_crop.jpg.webp?itok=VKHol_0U)
 
-<div class="caption">
+:::
+
+::: {.g-col-4}
 
 ### [Ben Baumer](https://www.smith.edu/academics/faculty/ben-baumer)
 
 Clark Science Center  
 Smith College  
 Northampton, MA 01063  
-<i class="fas fa-at"></i> [bbaumer@smith.edu](mailto:bbaumer@smith.edu)  
+<i class="fas fa-at"></i> <bbaumer@smith.edu>  
 <i class="fas fa-phone"></i> 413-585-3440  
 <i class="fab fa-twitter"></i> @[BaumerBen](http://www.twitter.com/BaumerBen)  
-<i class="fab fa-github"></i> [beanumber](http://www.github.com/beanumber)
+<i class="fab fa-github"></i> [GitHub](http://www.github.com/beanumber)
+:::
 
+::: {.g-col-2}
 <p>
 <a href="#" class="btn btn-primary" role="button">Spring 2022</a>
-<a href="#" class="btn btn-default" role="button">Fall 2021</a>
 <a href="#" class="btn btn-primary" role="button">Spring 2021</a>
-<a href="#" class="btn btn-default" role="button">Fall 2020</a>
-<a href="#" class="btn btn-default" role="button">Fall 2019</a>
 <a href="#" class="btn btn-primary" role="button">Spring 2019</a>
 <a href="#" class="btn btn-primary" role="button">Spring 2018</a>
 </p>
-</div>
-</div>
-</div>
+:::
 
 
+::: {.g-col-2}
+<p>
+<a href="#" class="btn btn-default" role="button">Fall 2024</a>
+<a href="#" class="btn btn-default" role="button">Fall 2021</a>
+<a href="#" class="btn btn-default" role="button">Fall 2020</a>
+<a href="#" class="btn btn-default" role="button">Fall 2019</a>
+</p>
+:::
 
-<!----------------------------- Miles Ott -----------------------------> 
-<div class="col-sm-12 col-md-6">
-<div class="thumbnail">
 
-![](img/Miles_Ott.png)
-<div class="caption">
+<!----------------------------- Shiya Cao -----------------------------> 
 
-### [Miles Ott](Miles Ott)
+::: {.g-col-4}
+![Shiya Cao](https://www.smith.edu/sites/default/files/styles/content_teaser_large/public/media/Documents/Mathematics-Statistics/Shiya-Cao-500x500.jpg.webp?itok=vKH-47V9)
+:::
+
+::: {.g-col-4}
+### [Shiya Cao](https://www.smith.edu/people/shiya-cao)
 
 Clark Science Center  
 Smith College  
 Northampton, MA 01063  
-<i class="fas fa-at"></i> [mott@smith.edu](mailto:mott@smith.edu)  
-<!--<i class="fas fa-phone"></i> 413-585-3537-->
-<i class="fab fa-twitter"></i> @[Miles_Ott](http://www.twitter.com/Miles_Ott)  
-<i class="fab fa-github"></i> [MilesOtt](http://www.github.com/MilesOtt)
+<i class="fas fa-at"></i> <scao53@smith.edu>  
+<i class="fab fa-github"></i> [GitHub](http://www.github.com/scao53)
+:::
 
+::: {.g-col-2}
 <p>
-<a href="#" class="btn btn-primary" role="button">Spring 2021</a>
-<a href="#" class="btn btn-primary" role="button">Spring 2020</a>
+<a href="#" class="btn btn-primary" role="button">Spring 2024</a>
 </p>
-</div>
-</div>
-</div>
+:::
+
+::: {.g-col-2}
+:::
 
 
 
-</div>
+<!----------------------------- Albert Y. Kim -----------------------------> 
 
+::: {.g-col-4}
+
+![Albert Y. Kim](https://www.smith.edu/sites/default/files/styles/content_teaser_large/public/media/Faculty/albert_kim_crop.jpg.webp?itok=6BAtQvDT)
+
+:::
+
+::: {.g-col-4}
+
+### [Albert Y. Kim](https://www.smith.edu/academics/faculty/albert-kim)
+
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="fas fa-at"></i> <akim04@smith.edu>  
+<i class="fab fa-twitter"></i> @[rudeboybert](http://www.twitter.com/rudeboybert)  
+<i class="fab fa-github"></i> [GitHub](http://www.github.com/rudeboybert)
+:::
+
+::: {.g-col-2}
+:::
+
+::: {.g-col-2}
+<p>
+<a href="#" class="btn btn-default" role="button">Fall 2023</a>
+<a href="#" class="btn btn-default" role="button">Fall 2022</a>
+</p>
+
+:::
+
+
+
+<!----------------------------- Lindsay Poirier -----------------------------> 
+
+
+::: {.g-col-4}
+![Lindsay Poirier](https://www.smith.edu/sites/default/files/styles/content_teaser_large/public/media/Faculty/Lindsay-Poirier.jpg.webp?itok=8-xY6Bgk)
+:::
+
+::: {.g-col-4}
+### [Lindsay Poirier](https://www.smith.edu/people/lindsay-poirier)
+
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="fas fa-at"></i> <lpoirier@smith.edu>  
+<i class="fab fa-github"></i> [GitHub](http://www.github.com/lindsaypoirier)
+:::
+
+::: {.g-col-2}
+<p>
+<a href="#" class="btn btn-primary" role="button">Spring 2023</a>
+</p>
+:::
+
+::: {.g-col-2}
+:::
+
+
+:::
