@@ -50,6 +50,7 @@ gargle::secret_write_rds(
 ```
 
 ```{r}
+#| label: read-sheet
 # Step 3: now decrypt the token using the secret key. 
 # This should work both locally AND on GitHub Actions!!
 gs4_auth(token = gargle::secret_read_rds(encrypted_token_path, "GS4_KEY"))
