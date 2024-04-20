@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: "../_site"
+
+execute: 
+  echo: false
+
+website:
+  title: "Smith College Data Science Clinic"
+  open-graph: true
+  twitter-card: 
+    site: "@SmithCollegeSDS"
+  navbar:
+    left:
+      - text: "Home"
+        icon: fa-home
+        href: index.html
+      - text: "Sponsors"
+        icon: fa-hands-helping
+        href: sponsors.html
+      - text: "Projects"
+        icon: fa-project-diagram
+        href: projects.html
+      - text: "Media"
+        icon: fa-share-alt
+        href: media.html
+      - text: "Contact"
+        icon: fa-info
+        href: contact.html
+    right:
+      - icon: fab fa-twitter
+        href: https://www.twitter.com/SmithCollegeSDS
+      - icon: fa-university
+        href: http://www.smith.edu/sds
+
+format:
+  html:
+    theme: sandstone
+    highlight: pygments
+    css: ["include/smith.css"]
+    toc: false
+    toc_float: true
+#    include:
+#      in_header: include/header.html
+#      after_body: include/after_body.html

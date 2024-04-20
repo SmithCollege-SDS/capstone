@@ -1,0 +1,167 @@
+---
+title: "Info for Sponsors"
+---
+
+## About the course
+
+SDS 410: (Capstone in Statistical & Data Sciences) is modeled as a data science consulting firm, wherein the instructor is the managing partner and the students are the junior partners. 
+Students work **collaboratively** in teams of 3--5 on a project sponsored by a private company, research lab, or non-profit organization. 
+All projects are centered around using data to solve **real-world** problems.
+
+The ideal project:
+
+* is challenging but not impossible
+* would take a small team of students several months -- not several weeks or years
+* has some public/open-source exposure (for their portfolio)
+* makes the world a better place
+
+Each section consists of 25--30 students --- all of whom are senior majors in [statistical & data sciences](http://www.smith.edu/sds). 
+They have foundational training in statistics, computer programming, data visualization, data wrangling, communication, and ethics, as outlined in our [curriculum](https://www.smith.edu/academics/statistics), and in pursuit of our [learning goals](https://www.smith.edu/about-smith/institutional-research/learning-goals#offices-institutional-research-statistical-data-sciences). 
+They are ready to tackle projects involving statistical modeling, data visualization, web scraping, web or mobile app development, database development, etc. 
+The end result might be a web API, a statistical model, a publishable research paper, an internal white paper, a web application, or whatever else seems appropriate. 
+
+You can learn more about the course through the slides for this talk:
+
+- Data Science Clinic: A capstone experience for Smithies in SDS  
+  Benjamin S. Baumer, Smith College  
+  Statistics and Data Science Symposium  
+  June 3rd, 2020  
+  https://beanumber.github.io/talks/sdss2020/capstone.html
+
+## What's in it for you?
+
+These students are highly-motivated and capable. 
+They will go on to top graduate schools and companies. 
+Students from previous classes are working full-time at Google, MasterCard, CitiGroup, and MassMutual. 
+Others are attending doctoral and master's programs in statistics, computer science, and data science at Harvard University, Columbia University, the University of Michigan, the University of North Carolina, the University of Pittsburgh, and the University of California-Riverside. 
+A sponsored project will provide you with: 
+
+* dedicated attention to your project
+* recruiting (of underrepresented genders -- all applicants to Smith College must [identify as a woman](https://www.smith.edu/about-smith/equity-inclusion/gender-identity-expression))
+* goodwill and PR
+* a substantive attempt to solve your data problem! Of course we can't promise a solution, but we will make a worthy attempt. 
+
+## What we'll need from you (and when)
+
+::: {.callout-important}
+
+The next iteration of the course starts **Thursday, Sep. 3, 2024** and ends Thursday, Dec 10, 2024. 
+If you are interested in sponsoring a project, we'll need:
+
+:::
+
+By August 1st: Contact Ben Baumer <mailto:bbaumer@smith.edu> with 
+
+* an idea for a project that involves some non-trivial data (that you have or know how to get)
+* a general description of your data (what format, roughly how many rows and columns, etc.)
+* a commitment from someone in your organization to serve as a contact person to interact with our students. This commitment might be on the order of one hour per week for 13 weeks, but could be more or less depending on your needs and availability. Contact could come via email, Slack, Zoom, etc.
+
+By August 15th:
+
+* a one paragraph description of your problem
+* a more specific description of your data
+* a three-minute video in which you introduce yourself, your organization, and describe your project to the students
+* a [completed intake form](https://docs.google.com/forms/d/e/1FAIpQLSe7PMWljdO3P5V9YDQTXHHMIcD7RHPjqGZyzx5dX3C3wNEV8Q/viewform)
+
+## Who's done this before? 
+
+Please see our [project archive](projects.html#project_archive) for a comprehensive list of previous projects
+
+
+::: {.grid}
+
+::: {.g-col-4}
+![NFL logo](https://static.www.nfl.com/image/private/t_editorial_landscape_12_desktop/league/bkhufsolhou43uouttw8)
+:::
+
+::: {.g-col-8}
+
+#### Michael Lopez
+
+"The Smith SDS students consistently demonstrated passion, intellect, and creativity that led us to think of enhanced and data-drive ways of improving our product. In particular, the students possessed outstanding data visualization skills, an appropriate understanding of uncertainty, and a willingness to work independently that consistently left us impressed."
+
+:::
+
+::: {.g-col-4}
+![Met Council logo](https://upload.wikimedia.org/wikipedia/en/d/dd/Metro_Council_logo.png)
+:::
+
+::: {.g-col-8}
+
+#### Mauricio León
+
+"I have to say that this group has done an outstanding work that surpassed my expectations. They were able to work around the difficulties of not having all the resources they had at the beginning due to the pandemic. They found creative solutions to problems involving datasets that we too large to handle in a conventional way, and worked with tools that are familiar to our team at the Met Council. The team maintained a positive attitude during the development of the work, asked reasonable questions, and tried to clarify the tasks along the way. As a result, they produced something that is of significant value for the development of our greenhouse gas mitigation research at the Metropolitan Council."
+
+:::
+
+::: {.g-col-4}
+
+![EBSCO logo](https://www.cccu.org/wp-content/uploads/2019/01/EBSCO-logo-1493.jpg)
+:::
+
+::: {.g-col-8}
+
+#### Kayleigh Hinckley
+
+"The students from SDS 410 were great to work with. They were able to quickly understand the large, complex problem we presented, researched and assessed multiple avenues for solving it, wrangled data from several sources, and ultimately produced an algorithm with results that are meaningful and actionable. The work from these students was the foundation our business needed to propel forward in a competitive industry. We look forward to working with Smith students again!"
+
+:::
+
+::: {.g-col-4}
+![OpenElections logo](https://pbs.twimg.com/profile_images/3218754403/bf95558332069c89539236ff830ad712.jpeg)
+:::
+
+::: {.g-col-8}
+#### Derek Willis
+
+"The Smith College students dove right into a complicated and messy set of tasks. They asked good questions and weren’t shy about making suggestions that improved the outcome. We were looking for a way to turn what was a repetitive manual task into one that could be at least partially automated, and they succeeded at producing code that trades data entry and other time-consuming methods for a better, faster approach. Finally, they were professional in their communication and maintained a positive attitude throughout the project."
+
+:::
+
+::: {.g-col-4}
+![NBA logo](https://pbs.twimg.com/profile_images/378800000117007819/bbabb9c3afb8c40c9c2acfe99aa05595.jpeg)
+:::
+
+::: {.g-col-8}
+#### NBA team analyst
+
+"It was a pleasure to collaborate with the SDS 410 students. We were impressed by the students’ technical capabilities and their ability to work independently. Their work was both well documented and clearly presented and overall we were very happy with the results they achieved."
+
+:::
+
+
+::: {.g-col-4}
+![Wisconsin Project logo](https://pbs.twimg.com/profile_images/877538565382696960/3fi9Ub-Y_400x400.jpg)
+:::
+
+::: {.g-col-8}
+#### Meghan Crimmins
+
+"The Smith College students we worked with were professional, timely, and were able to explain complex ideas in digestible ways. They communicated well throughout the project and were committed to finding a solution to our data problem. Their use of natural language processing to extract and structure previously unstructured data has helped inform our research on proliferation networks, and the macro-level visualizations they delivered have given us new ways to present our research to potential clients and the public. We look forward to working with Smith SDS students again in the future!"
+
+:::
+
+
+::: {.g-col-4}
+![Praava Health logo](https://idlc.com/mbr/images/public/ZWv8SqZMeQXHbn1mT2JV8z.JPG) 
+:::
+::: {.g-col-8}
+#### Sabrina Imam
+
+"Their work has helped us figure out the entity definitions of a large portion of the database. We found the students to be very enthusiastic, smart, and professional in their approach. They were very quick to understand our database, and were always on time for our weekly calls despite the 10-hour time difference. We especially appreciate the students' creative thinking and their use of some new and innovative tools to create a column-to-column connectivity diagram and a network graph that was outside the project scope."
+
+:::
+
+
+::: {.g-col-4}
+![ProPublica logo](https://assets.propublica.org/2017-pp-open-graph-1200x630.jpg)
+:::
+
+::: {.g-col-8}
+
+#### Ryann Grochowski Jones
+
+"The SDS 410 students were communicative and professional. They worked independently but weren't afraid to ask questions if something was unclear. I'm eager to work with Smith students again in future semesters."
+
+:::
+:::

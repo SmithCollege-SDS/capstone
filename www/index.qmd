@@ -1,0 +1,30 @@
+---
+title: "Data Science Clinic"
+---
+
+
+A one-semester capstone course for [Statistical & Data Sciences](http://www.smith.edu/sds) majors at [Smith College](http://www.smith.edu) focused on using data in ethical ways to collaboratively solve real-world problems. 
+
+<a class="btn btn-primary btn-lg" href="sponsors.html" role="button">Learn more...</a>
+
+
+::: {.panel-tabset}
+
+## HuffPost
+![Eating noodles in NYC after classifying the social impact of articles](img/20180507_133125.jpg)
+
+## Wisconsin Project
+![Wrangling unstructured text into data for nuclear disarmament](img/20190426_154744.jpg)
+
+## CEEDS
+![visualizing environmental data in real-time with Shiny](img/20190502_135916.jpg)
+
+## Barresi Lab
+![Aligning 3D images of zebrafish brains using PCA](img/20190503_120926.jpg)
+
+## ProPublica
+![Exposing medical malpractice through web scraping](img/20190506_150817.jpg)
+
+## Community Labor United
+![Helping parents find childcare with Census-informed interactive maps](img/20190507_133254.jpg)
+:::

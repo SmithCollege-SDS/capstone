@@ -1,0 +1,126 @@
+---
+title: 'Instructors'
+---
+
+
+
+::: {.grid}
+
+
+<!----------------------------- Ben Baumer -----------------------------> 
+::: {.g-col-4}
+
+![Ben Baumer](https://www.smith.edu/sites/default/files/styles/content_teaser_large/public/media/Faculty/ben_baumer_crop.jpg.webp?itok=VKHol_0U)
+
+:::
+
+::: {.g-col-4}
+
+### [Ben Baumer](https://www.smith.edu/academics/faculty/ben-baumer)
+
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="bi bi-at"></i> <bbaumer@smith.edu>  
+<i class="fas fa-phone"></i> 413-585-3440  
+<i class="bi bi-twitter"></i> @[BaumerBen](http://www.twitter.com/BaumerBen)  
+<i class="bi bi-github"></i> [beanumber](http://www.github.com/beanumber)
+:::
+
+::: {.g-col-2}
+[Spring 2022]{.btn .btn-primary .btn role="button"}
+[Spring 2021]{.btn .btn-primary .btn role="button"}
+[Spring 2019]{.btn .btn-primary .btn role="button"}
+[Spring 2018]{.btn .btn-primary .btn role="button"}
+:::
+
+
+::: {.g-col-2}
+[Fall 2024](sponsors.qmd){.btn .btn-outline-secondary .btn role="button"}
+[Fall 2021]{.btn .btn-secondary .btn role="button"}
+[Fall 2020]{.btn .btn-secondary .btn role="button"}
+[Fall 2019]{.btn .btn-secondary .btn role="button"}
+:::
+
+
+<!----------------------------- Shiya Cao -----------------------------> 
+
+::: {.g-col-4}
+![Shiya Cao](https://www.smith.edu/sites/default/files/styles/content_teaser_large/public/media/Documents/Mathematics-Statistics/Shiya-Cao-500x500.jpg.webp?itok=vKH-47V9)
+:::
+
+::: {.g-col-4}
+### [Shiya Cao](https://www.smith.edu/people/shiya-cao)
+
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="bi bi-at"></i> <scao53@smith.edu>  
+<i class="bi bi-github"></i> [scao53](http://www.github.com/scao53)
+:::
+
+::: {.g-col-2}
+[Spring 2024]{.btn .btn-primary .btn role="button"}
+:::
+
+::: {.g-col-2}
+:::
+
+
+
+<!----------------------------- Albert Y. Kim -----------------------------> 
+
+::: {.g-col-4}
+
+![Albert Y. Kim](https://www.smith.edu/sites/default/files/styles/content_teaser_large/public/media/Faculty/albert_kim_crop.jpg.webp?itok=6BAtQvDT)
+
+:::
+
+::: {.g-col-4}
+
+### [Albert Y. Kim](https://www.smith.edu/academics/faculty/albert-kim)
+
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="bi bi-at"></i> <akim04@smith.edu>  
+<i class="bi bi-twitter"></i> @[rudeboybert](http://www.twitter.com/rudeboybert)  
+<i class="bi bi-github"></i> [rudeboybert](http://www.github.com/rudeboybert)
+:::
+
+::: {.g-col-2}
+:::
+
+::: {.g-col-2}
+[Fall 2023]{.btn .btn-secondary .btn role="button"}
+[Fall 2022]{.btn .btn-secondary .btn role="button"}
+:::
+
+
+
+<!----------------------------- Lindsay Poirier -----------------------------> 
+
+
+::: {.g-col-4}
+![Lindsay Poirier](https://www.smith.edu/sites/default/files/styles/content_teaser_large/public/media/Faculty/Lindsay-Poirier.jpg.webp?itok=8-xY6Bgk)
+:::
+
+::: {.g-col-4}
+### [Lindsay Poirier](https://www.smith.edu/people/lindsay-poirier)
+
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="bi bi-at"></i> <lpoirier@smith.edu>  
+<i class="bi bi-github"></i> [lindsaypoirier](http://www.github.com/lindsaypoirier)
+:::
+
+::: {.g-col-2}
+[Spring 2023]{.btn .btn-primary .btn role="button"}
+:::
+
+::: {.g-col-2}
+:::
+
+
+:::
