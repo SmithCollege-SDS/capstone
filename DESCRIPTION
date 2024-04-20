@@ -15,6 +15,7 @@ Imports:
     googlesheets4,
     here,
     gargle,
-    knitr
+    knitr,
+    stringr
 Suggests:
     rmarkdown
