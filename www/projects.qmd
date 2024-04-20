@@ -15,7 +15,6 @@ We are currently seeking new sponsors for the fall 2023 semester. Please see the
 ## Project archive
 
 ```{r}
-library(tidyverse)
 library(googlesheets4)
 # designate project-specific cache
 cache_dir <- here::here(".secrets")
@@ -60,13 +59,14 @@ archive <- read_sheet("https://docs.google.com/spreadsheets/d/17nrW5cXHFeoISeNdU
 ```{r}
 #| include: true
 #| message: false
-archive %>%
-  arrange(desc(year), semester, client) %>%
+library(dplyr)
+archive |>
+  arrange(desc(year), semester, client) |>
   mutate(
     Term = paste(stringr::str_to_title(semester), year), 
     Title = ifelse(repo_public, paste0("[", title, "](", repo, ")"), title), 
     Sponsor = ifelse(client_public, paste0("[", client, "](", url, ")"), "[redacted]")
-  ) %>%
-  select(Term, Sponsor, Title, Students = students) %>%
+  ) |>
+  select(Term, Sponsor, Title, Students = students) |>
   knitr::kable(caption = "Previous capstone sponsors")
 ```
