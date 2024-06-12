@@ -5,6 +5,9 @@ title: "Media"
 While many capstone projects have made substantial and long-lasting contributions on their sponsoring organization, many of those contributions never become public. 
 Here, we note a few of the more public contributions. 
 
+## 99P Labs project
+
+- Capstone students wrote [a blog post](https://medium.com/99p-labs/navigating-telematics-data-1b59e09489c7) based on their experience "Navigating Telematics Data"
 
 ## ProPublica project
 
