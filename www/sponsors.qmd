@@ -26,7 +26,7 @@ You can learn more about the course through the slides for this talk:
   Benjamin S. Baumer, Smith College  
   Statistics and Data Science Symposium  
   June 3rd, 2020  
-  https://beanumber.github.io/talks/sdss2020/capstone.html
+  <https://beanumber.github.io/talks/sdss2020/capstone.html>
 
 ## What's in it for you?
 
