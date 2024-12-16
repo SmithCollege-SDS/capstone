@@ -34,12 +34,14 @@ options(
 # Ben did this once -- no one else should need to do it!!!
 
 # Step 1a: generate a secret key
-gargle::secret_make_key()
+secret_key <- gargle::secret_make_key()
 # Step 1b: save the secret key as the GS4_KEY environment variable in `_environment.local`
+# Sys.getenv("GS4_KEY")
+# Sys.setenv(GS4_KEY = secret_key)
 # Step 1c: Configure the secret key as a Secret on GitHub
 
 # Step 2a: get a token and DO NOT CACHE IT
-gs4_auth("bbaumer@smith.edu", cache = FALSE)
+googlesheets4::gs4_auth("bbaumer@smith.edu", cache = FALSE)
 # Step 2b: encrypt the token and write it to a file
 gargle::secret_write_rds(
   gs4_token(),
