@@ -10,7 +10,8 @@ execute:
 
 ## Current projects
 
-We are currently seeking new sponsors for the fall 2023 semester. Please see the [sponsors](sponsors.html) page for information about sponsoring a project, and the [project archive](projects.html#project_archive) for information about past projects.  
+We are currently seeking new sponsors for the fall 2026 semester. 
+Please see the [sponsors](sponsors.html) page for information about sponsoring a project, and the [project archive](projects.html#project_archive) for information about past projects.  
 
 ## Project archive
 
