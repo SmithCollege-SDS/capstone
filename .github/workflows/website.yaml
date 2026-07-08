@@ -27,6 +27,10 @@ jobs:
           extra-packages: 
             any::dplyr
             any::googlesheets4
+            any::here
+            any::knitr
+            any::lubridate
+            any::stringr
 
 #      - uses: quarto-dev/quarto-actions/setup@v2
 #      - run: |
