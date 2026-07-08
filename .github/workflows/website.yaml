@@ -24,16 +24,16 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck
-          needs: check
+          extra-packages: 
+            any::dplyr
+            any::googlesheets4
 
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - run: |
-          quarto --version
+#      - uses: quarto-dev/quarto-actions/setup@v2
+#      - run: |
+#          quarto --version
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          path: www
           target: gh-pages
 

@@ -23,7 +23,6 @@ Smith College
 Northampton, MA 01063  
 <i class="bi bi-at"></i> <bbaumer@smith.edu>  
 <i class="fas fa-phone"></i> 413-585-3440  
-<i class="bi bi-twitter"></i> @[BaumerBen](http://www.twitter.com/BaumerBen)  
 <i class="bi bi-github"></i> [beanumber](http://www.github.com/beanumber)
 :::
 
@@ -36,7 +35,8 @@ Northampton, MA 01063
 
 
 ::: {.g-col-2}
-[Fall 2024](sponsors.qmd){.btn .btn-outline-secondary .btn role="button"}
+[Fall 2026](sponsors.qmd){.btn .btn-outline-secondary .btn role="button"}
+[Fall 2024]{.btn .btn-secondary .btn role="button"}
 [Fall 2021]{.btn .btn-secondary .btn role="button"}
 [Fall 2020]{.btn .btn-secondary .btn role="button"}
 [Fall 2019]{.btn .btn-secondary .btn role="button"}
@@ -120,6 +120,32 @@ Northampton, MA 01063
 :::
 
 ::: {.g-col-2}
+:::
+
+
+<!----------------------------- Nikko Stevens -----------------------------> 
+
+
+::: {.g-col-4}
+![Nikko Stevens](https://www.smith.edu/sites/default/files/styles/content_faculty_profile_full_medium/public/2025-10/nikko_stevens_2.jpg.webp?itok=lY7qehiE)
+:::
+
+::: {.g-col-4}
+### [Nikko Stevens](https://www.smith.edu/people/nikko-stevens)
+
+Clark Science Center  
+Smith College  
+Northampton, MA 01063  
+<i class="bi bi-at"></i> <nstevens@smith.edu>  
+<i class="bi bi-github"></i> [drnikko](http://www.github.com/drnikko)
+:::
+
+::: {.g-col-2}
+[Spring 2026]{.btn .btn-primary .btn role="button"}
+:::
+
+::: {.g-col-2}
+[Fall 2025]{.btn .btn-primary .btn role="button"}
 :::
 
 
