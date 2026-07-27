@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://SmithCollege-SDS.github.io/capstone/index.html</loc>
-    <lastmod>2026-07-08T15:54:59.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SmithCollege-SDS.github.io/capstone/contact.html</loc>
-    <lastmod>2026-07-08T15:54:59.007Z</lastmod>
-  </url>
-  <url>
-    <loc>https://SmithCollege-SDS.github.io/capstone/sponsors.html</loc>
-    <lastmod>2026-07-08T15:54:59.045Z</lastmod>
-  </url>
-  <url>
     <loc>https://SmithCollege-SDS.github.io/capstone/projects.html</loc>
-    <lastmod>2026-07-08T15:54:59.045Z</lastmod>
+    <lastmod>2026-07-27T16:20:49.151Z</lastmod>
   </url>
   <url>
     <loc>https://SmithCollege-SDS.github.io/capstone/media.html</loc>
-    <lastmod>2026-07-08T15:54:59.045Z</lastmod>
+    <lastmod>2026-07-27T16:20:49.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SmithCollege-SDS.github.io/capstone/sponsors.html</loc>
+    <lastmod>2026-07-27T16:20:49.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SmithCollege-SDS.github.io/capstone/contact.html</loc>
+    <lastmod>2026-07-27T16:20:49.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SmithCollege-SDS.github.io/capstone/index.html</loc>
+    <lastmod>2026-07-27T16:20:49.151Z</lastmod>
   </url>
 </urlset>
