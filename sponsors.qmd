@@ -75,6 +75,19 @@ Please see our [project archive](projects.html#project_archive) for a comprehens
 
 ::: {.grid}
 
+
+::: {.g-col-4}
+![](gfx/RevereLogo.png)
+:::
+::: {.g-col-8}
+
+#### Julian Trajanson, Civic, CTO
+
+"The students from the Smith College Data Science Clinic performed at a level that exceeded what we have seen from many working data science professionals. From the beginning, the team was exceptionally professional, fully committed to the project, and rigorous and analytical in its approach. They conducted a thorough review of state-of-the-art techniques, designed and carried out data-driven experiments, and used their findings to select and develop the strongest solution. Their work ultimately resulted in an innovative contrastive learning–based approach that has since been incorporated into our product. A video of the team’s final presentation is [available on our website](https://www.youtube.com/watch?v=65umkR69TUA)."
+
+:::
+
+
 ::: {.g-col-4}
 ![NFL logo](https://static.www.nfl.com/image/private/t_editorial_landscape_12_desktop/league/bkhufsolhou43uouttw8)
 :::
